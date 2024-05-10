@@ -1,0 +1,37 @@
+.app-container {
+  width: 100vw;
+  min-width: 400px;
+  max-width: 3200px;
+  overflow-x: auto;
+  min-height: 100vh;
+  overflow-y: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-area {
+  width: calc(100vw - 64px);
+  height: calc(100vh - 80px);
+  border: solid 1px #e0e0e0;
+  padding: 1px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-area {
+  width: calc(100vw - 68px);
+  height: 60px;
+}
+
+.output-area {
+  width: calc(100vw - 68px);
+  height: calc(100vh - 112px);
+  overflow: auto;
+}
